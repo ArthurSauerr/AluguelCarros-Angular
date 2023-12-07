@@ -1,13 +1,13 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-custom shadow-sm">
   <a class="ml-4">
     <img src="https://i.ibb.co/S3hVgjB/icons8-carro-60.png" width="40" height="40" alt="icons8-carro-60">
   </a>
-  <div class="collapse navbar-collapse bg-dark mr-5" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse mr-5" id="navbarSupportedContent">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link ml-4" href="#">Home<span class="sr-only"></span></a>
+        <a class="nav-link ml-4 text-light" href="#">Home<span class="sr-only"></span></a>
       </li>
-      <li><a class="nav-link ml-4" href="#">Perfil<span class="sr-only"></span></a>
+      <li><a class="nav-link ml-4 text-light" href="#">Perfil<span class="sr-only"></span></a>
       </li>
     </ul>
     <form class="form-inline mx-auto">
@@ -16,3 +16,6 @@
     </form>
   </div>
 </nav>
+<div>
+  <router-outlet></router-outlet>
+</div>
